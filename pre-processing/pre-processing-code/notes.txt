@@ -1,0 +1,22 @@
+Headless chrome version that works:
+https://robertorocha.info/setting-up-a-selenium-web-scraper-on-aws-lambda-with-python/
+
+chromedriver 2.41
+headless-chromium-68.0.3440.84 - severless-chrome v1.0.0-53
+selenium==3.141.0
+
+#########################################
+Binaries should be in bin/
+#########################################
+# Get chromedriver
+curl -SL https://chromedriver.storage.googleapis.com/2.37/chromedriver_linux64.zip > chromedriver.zip
+unzip chromedriver.zip -d bin/
+
+# Get Headless-chrome
+curl -SL https://github.com/adieuadieu/serverless-chrome/releases/download/v1.0.0-37/stable-headless-chromium-amazonlinux-2017-03.zip > headless-chromium.zip
+unzip headless-chromium.zip -d bin/
+
+#########################################
+Python libraries should be in lib/
+#########################################
+pip3 install boto3 selenium chromedriver_installer -t lib/.
