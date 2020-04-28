@@ -12,7 +12,7 @@ Data that is sent from users’ devices to the Maps service is associated with r
 #### Data Source
 This resource is provided in CSV format. The dataset includes to following columns:
 
-`geo_type, region, transportation_type, alternative_name` followed by a column for reach day since January 13, 2020.
+`geo_type, region, transportation_type, alternative_name` followed by a column for each day since January 13, 2020.
 
 ## More Information
 - Source: [Apple Mobility Trends Reports](https://www.apple.com/covid19/mobility)         
