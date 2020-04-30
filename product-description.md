@@ -1,6 +1,6 @@
 # COVID-19 Apple Mobility Trends Reports
 
-The source code outlining how this product gathers, transforms, revises and publishes its datasets is avaiable at [https://github.com/rearc-data/apple-maps-mobility-trends-covid-19](https://github.com/rearc-data/apple-maps-mobility-trends-covid-19).
+The source code outlining how this product gathers, transforms, revises and publishes its datasets is available at [https://github.com/rearc-data/apple-maps-mobility-trends-covid-19](https://github.com/rearc-data/apple-maps-mobility-trends-covid-19).
 
 ## Product Description
 This dataset contains COVID‑19 mobility trends in countries/regions and cities from Apple. The CSV file show a relative volume of directions requests per country/region or city compared to a baseline volume on January 13th, 2020.
