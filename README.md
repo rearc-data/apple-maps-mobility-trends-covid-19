@@ -6,7 +6,7 @@
 
 You can subscribe to the AWS Data Exchange product utilizing the automation featured in this repository by visiting [https://aws.amazon.com/marketplace/pp/prodview-ucdg4nudicxzi](https://aws.amazon.com/marketplace/pp/prodview-ucdg4nudicxzi). 
 
-## Product Description
+## Main Overview
 This dataset contains COVID‑19 mobility trends in countries/regions and cities from Apple. The CSV file show a relative volume of directions requests per country/region or city compared to a baseline volume on January 13th, 2020.
 
 Cities represent usage in greater metropolitan areas and are stably defined during this period. In many countries/regions and cities, relative volume has increased since January 13th, consistent with normal, seasonal usage of Apple Maps. Day of week effects are important to normalize as you use this data.
